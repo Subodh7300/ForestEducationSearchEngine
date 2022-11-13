@@ -2,6 +2,8 @@
 
 This is a submission repository for 'Hack2Educate'
 
+To run the project run the **server.py** file.
+
 Team Name - **GoSlow**
 Theme - This project is working on the theme of **A better Search Engine for Education**
 
