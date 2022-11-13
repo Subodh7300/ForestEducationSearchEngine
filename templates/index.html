@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Searches</title>
+</head>
+<body>
+    <ul>
+        {% for item in results %}
+            <li>
+                {{ item['title'] }}
+                <a href="{{ item['link'] }}">Click here</a>
+            </li>
+        {% endfor %}
+<!--        <li>{{item}}</li>-->
+    </ul>
+</body>
+</html>
